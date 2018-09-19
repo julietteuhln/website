@@ -1,0 +1,255 @@
+/* --------------------------------
+
+Primary style
+-------------------------------- */
+*, *::after, *::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    background-color: #f3eee9;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    /* prevent horizontal scrolling */
+    overflow-x: hidden;
+}
+
+a {
+    color: #9cb3a8;
+    text-decoration: none;
+}
+
+header {
+    opacity:1;
+    position: fixed;
+    width: 250px:
+    left: 0;
+    float: left;
+}
+
+.header {
+    z-index: 4;
+    height: 100%;
+    text-align: center;
+    display: block;
+    padding: 50px 20px 20px;
+    background: #f5f5f5;
+    background-size: auto,auto;
+
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 768px), only screen and (min-width: 1200px)
+{.header {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}}
+
+.header_nav{
+    margin: 0 -20px 20px;
+    display: block;
+}
+
+.header_logo{
+    display: block;
+    margin-bottom: 80px;
+}
+
+.header_logo>img{
+    width: 215px;
+}
+
+.header_footer{
+    text-align: center;
+    padding-top: 5%;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+a, a:active, a:focus{
+    color:#ff4d4d;
+    background: transparent;
+    text-decoration: none;
+    outline: none;
+}
+
+ul>li{
+
+    list-style-type: none;
+    overflow: hidden;
+    padding: 5px 0;
+    margin: 0;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ul{
+    padding: 0;
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+footer{
+    margin-top: 5%;
+    text-align: center;
+    bottom: 0;
+    display: block;
+}
+
+.footer>p{ 
+    position: absolute;
+    text-align: center;
+    margin-left: 35%;
+ }
+/********************************************style-graphique galleri***********************************************/
+
+
+main>h1{
+    font-family: "Montserrat", serif;
+    padding: 8%;
+    margin-bottom: 3%;
+}
+
+main{
+    padding-left: 265px;
+}
+
+.tilter {
+    position: relative;
+    display: block;
+    flex: none;
+    width: 300px;
+    height: 415px;
+    margin: 1.5em 2.5em;
+    color: #fff;
+    perspective: 1000px;
+    padding-right: 100px;
+    padding-bottom: 10%;
+}
+
+.tilter * {
+    pointer-events: none;
+
+}
+
+.tilter:hover,
+.tilter:focus {
+    color: #fff;
+    outline: none;
+}
+
+.tilter__figure,
+.tilter__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.tilter__figure > * {
+    transform: translateZ(0px); /* Force correct stacking order */
+}
+
+.tilter__figure {
+    position: relative;
+}
+
+.tilter__figure::before {
+    content: '';
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    box-shadow: 0 30px 20px rgba(35,32,39,0.5);
+}
+
+.tilter__deco {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.tilter__deco--overlay {
+    background-image: linear-gradient(45deg, rgba(226, 60, 99, 0.4), rgba(145, 58, 252, 0.4), rgba(16, 11, 192, 0.4));
+}
+
+.tilter__deco--shine div {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0.25) 50%, transparent 100%);
+}
+
+.tilter__deco--lines {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+.tilter__caption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 4em;
+}
+
+.tilter__title {
+    font-family: "Montserrat", serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+}
+
+.tilter__description {
+    font-size: 0.85em;
+    margin: 1em 0 0 0;
+    letter-spacing: 0.15em;
+}
+
+.content {
+    padding: 0 0 4em;
+    height: 800px;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+a {
+    outline: none;
+    color: #694f9b;
+    text-decoration: none;
+    transition: color 0.2s;
+}
