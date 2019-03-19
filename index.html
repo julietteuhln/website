@@ -1,278 +1,357 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <!-- Title  -->
-    <title>Juliette UHLEN | Home</title>
-
-    <!-- Favicon  -->
-    <link rel="icon" href="img/core-img/favicon.ico">
-
-    <!-- Core Style CSS -->
-    <link rel="stylesheet" href="css/core-style.css">
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Responsive CSS -->
-
-    <link href="css/responsive.css" rel="stylesheet">
-
+	<meta charset="utf-8"/> 
+	<title>Site Web</title>
+	<link rel="stylesheet" type="text/css" href="css/swiper.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/justifiedGallery.css">
+	 <style>
+    html, body {
+      position: relative;
+    }
+    body {
+      background: #000;
+      -webkit-font-smoothing: antialiased;
+      font-family: Helvetica Neue, Helvetica, Roboto, sans-serif;
+      font-size: 14px;
+      color:#6f6f6f;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #000;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+  </style>
+       
 </head>
 
-<body>
-    <!-- Preloader -->
-    <div id="preloader">
-        <div class="showbox">
-            <div class="loader">
-                <svg class="circular" viewBox="25 25 50 50">
-                    <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
-                </svg>
-            </div>
-        </div>
-        <div class="questions-area text-center">
-            <p>Le Saviez-vous ?</p>
-            <ul>
-                <li>Le plus grand oiseau terrestre était originaire de Madagascar. Il mesurait 3.50m.</li>
-                <li>Le premier pc fut conçu en php en 1983.</li>
-            </ul>
-        </div>
-    </div>
-
-    <!-- Gradient Background Overlay -->
-    <div class="gradient-background-overlay"></div>
-
-    <!-- Header Area Start -->
-    <header class="header-area">
-        <div class="container-fluid h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-12 h-100">
-                    <div class="main-menu h-100">
-                        <nav class="navbar h-100 navbar-expand-lg">
-                            <!-- Logo Area  -->
-                            <a class="navbar-brand" href="index.html"><img src="img/core-img/logo-icon.png" alt="Logo"></a>
-
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#studioMenu" aria-controls="studioMenu" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i> Menu</button>
-
-                            <div class="collapse navbar-collapse" id="studioMenu">
-                                <!-- Menu Area Start  -->
-                                <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item dropdown">
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="index.html">Home</a>
-                                            <a class="dropdown-item" href="http://julietteuhlen.ultra-book.com/accueil">Portfolio</a>
-                                        </div>
-                                    </li>    
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="http://julietteuhlen.ultra-book.com/accueil">Portfolio</a>
-                                    </li>
-                                   
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- Header Area End -->
-    <!-- ***** Welcome Area Start ***** -->
-    <section class="welcome-area">
-        <div class="carousel h-100 slide" data-ride="carousel" id="welcomeSlider">
-            <!-- Carousel Inner -->
-            <div class="carousel-inner h-100">
-
-                <div class="carousel-item h-100 bg-img active" style="background-image: url(img/bg-img/p1.jpg);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>01.</span>
-                            <h2> Portrait destructuré</h2>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/p1bis.jpg);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>02.</span>
-                            <h2>Festival Viens défier le monde ! </h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/p13.jpg);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>03.</span>
-                            <h2>Photographies colorisées du 18e siècle </h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/p3.png);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>04.</span>
-                            <h2>Carte de Festival en 3D</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/flyer3pli.png);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>05.</span>
-                            <h2> Flyer Festival 2 plis</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/avant.png);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>06.</span>
-                            <h2> Flyer Festival 1 pli  </h2> 
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/parcours.png);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>07.</span>
-                            <h2> Flyer Festival 1 pli ouvert</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/mountain.png);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>08.</span>
-                            <h2> Paysage numérique</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/ORANGE.jpg);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>09.</span>
-                            <h2> Indien colorisé</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/omg.jpg);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>10.</span>
-                            <h2> Tomber dans le vide</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/stickto.png);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>11.</span>
-                            <h2> Inspiration Bauhaus</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/12.jpg);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>12.</span>
-                            <h2> Believe you can fly</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/13.jpg);">
-                    <div class="carousel-content h-100">
-                        <div class="slide-text">
-                            <span>13.</span>
-                            <h2> Poussière numérique</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Carousel Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#welcomeSlider" data-slide-to="0" class="active bg-img" style="background-image: url(img/bg-img/p1.jpg);"></li>
-                <li data-target="#welcomeSlider" data-slide-to="1" class="bg-img" style="background-image: url(img/bg-img/p1bis.jpg);"></li>
-                <li data-target="#welcomeSlider" data-slide-to="2" class="bg-img" style="background-image: url(img/bg-img/p13.jpg);"></li>
-                <li data-target="#welcomeSlider" data-slide-to="3" class="bg-img" style="background-image: url(img/bg-img/img-07.png);"></li>
-                <li data-target="#welcomeSlider" data-slide-to="4" class="bg-img" style="background-image: url(img/bg-img/flyer3pli.png);"></li>
-                <li data-target="#welcomeSlider" data-slide-to="5" class="bg-img" style="background-image: url(img/bg-img/avant.png);"></li>
-                <li data-target="#welcomeSlider" data-slide-to="6" class="bg-img" style="background-image: url(img/bg-img/parcours.png);"></li>
-                <li data-target="#welcomeSlider" data-slide-to="7" class="bg-img" style="background-image: url(img/bg-img/mountain.png);"></li>
-                <li data-target="#welcomeSlider" data-slide-to="8" class="bg-img" style="background-image: url(img/bg-img/ORANGE.jpg);"></li>
-                <li data-target="#welcomeSlider" data-slide-to="9" class="bg-img" style="background-image: url(img/bg-img/omg.jpg);"></li>
-                <li data-target="#welcomeSlider" data-slide-to="10" class="bg-img" style="background-image: url(img/bg-img/stickto.png);"></li>
-                <li data-target="#welcomeSlider" data-slide-to="11" class="bg-img" style="background-image: url(img/bg-img/12.jpg);"></li>
-                <li data-target="#welcomeSlider" data-slide-to="12" class="bg-img" style="background-image: url(img/bg-img/13.jpg);"></li>
-            </ol>
-        </div>
-    </section>
-    <!-- ***** Welcome Area End ***** -->
-
-    <!-- ***** Contact Area Start ***** -->
-    <div class="contact-popup-form" id="contact-modal-lg">
-        <div class="modal fade contact-modal-lg" tabindex="-1" role="dialog" aria-labelledby="contact-modal-lg" aria-hidden="true">
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="contact-heading-text text-center mb-30">
-                                    <span></span>
-                                    <h2>Please get in touch</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Contact Form Area -->
-                    <div class="contact-form-area">
-                        <div class="container-fluid">
-                            <form action="#" method="post">
-                                <div class="row">
-                                    <div class="col-12 col-md-4">
-                                        <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
-                                    </div>
-                                    <div class="col-12 col-md-4">
-                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
-                                    </div>
-                                    <div class="col-12 col-md-4">
-                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
-                                    </div>
-                                    <div class="col-12">
-                                        <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                                    </div>
-                                    <div class="col-12 text-center">
-                                        <button type="submit" class="btn studio-btn mt-3"><img src="img/core-img/logo-icon.png" alt=""> Send</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ***** Contact Area End ***** -->
 
 
-    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-<p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+<body id="body">
 
-    <!-- jQuery (Necessary for All JavaScript Plugins) -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
-    <!-- Popper js -->
-    <script src="js/popper.min.js"></script>
-    <!-- Bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Plugins js -->
-    <script src="js/plugins.js"></script>
-    <!-- Active js -->
-    <script src="js/active.js"></script>
+<header>
+	<nav class="navbar">
+		<div class="row">
+
+		<a href="#"><img class="logoju" src="img/logoju.png"></a>
+			
+			<div class="menu-horizontal font-weight-400">
+				<ul><li>Portfolio</li>
+					<li>Contact</li>
+				</ul>
+			</div>	
+		</div>
+	</nav>
+</header>
+
+
+
+<div class="container" id="container">
+	<div class="row">
+		<div id="mygallery" class="swiper-container portfolio-slider-1 no-move portfolio-slider-style-3 swiper-container-horizontal swiper-container-android">
+			<div class="swiper-wrapper" style="height: 700px;">
+
+
+				<div class="swiper-slide width-550px swiper-slide-active" style="margin-right:30px;"> 
+				      	<div class="position-relative width-90 height-100 display-table padding-ten-all">
+				      		<div class="display-table-cell vertical-align-middle">
+				      		
+				      		
+				      		</div>
+				      	</div>
+
+				    </div>
+
+				    <div class="swiper-slide width-auto swiper-slide-next" style="margin-right:30px;"> 
+				      	<div class="height-100 display-table">
+				      		<div class="display-table-cell vertical-align-middle">
+				      			<div class="display-block position-relative">
+				      				<img src="img/p1bis.jpg" width="1400" height="1000" sizes="(max-width : 1400px) 100v, 1300px">
+				      				<p class="bottom-text width-100 no-margin text-extra-small text-uppercase text-center">Graphisme & communication</p>
+				      			</div>
+				      			<div class="hover-title-box padding-55px-1r width-300px">
+				      				<div class="separator width-50px bg-whote md-display-none" style="background-color: #fff;"></div>
+				      				<h3>
+				      					<a href="#article">
+				      						<span class="text-white font-weight-600 alt-font text-white-hover">Viens défier
+				      							<br>le monde</span>
+				      					</a>
+				      				</h3>
+				      			</div>
+				      		</div>
+				      	</div>
+
+				    </div>
+				    <div class="swiper-slide width-auto swiper-slide-next" style="margin-right:30px;"> 
+				      	<div class="height-100 display-table">
+				      		<div class="display-table-cell vertical-align-middle">
+				      			<div class="display-block position-relative">
+				      				<img src="img/p13.jpg" width="1400" height="1000" sizes="(max-width : 1300px) 100v, 1300px">
+				      				<p class="bottom-text width-100 no-margin text-extra-small text-uppercase text-center">Histoire & Colorimétrie</p></div>
+				      			<div class="hover-title-box padding-55px-1r width-300px">
+				      				<div class="separator width-50px bg-whote md-display-none" style="background-color: #fff;"></div>
+				      				<h3>
+				      					<a href="#article2">
+				      						<span class="text-white  font-weight-600 alt-font text-white-hover"> Apaches<br>
+				      						Photos <br>
+				      						en couleurs</span>
+				      					</a>
+				      				</h3>
+				      			</div>
+				      		</div>
+				      	</div>
+
+				    </div>
+				     <div class="swiper-slide width-auto swiper-slide-next" style="margin-right:30px;"> 
+				      	<div class="height-100 display-table">
+				      		<div class="display-table-cell vertical-align-middle">
+				      			<div class="display-block position-relative">
+				      				<img src="img/p1.jpg" width="1400" height="1000" sizes="(max-width : 1300px) 100v, 1300px">
+				      				<p class="bottom-text width-100 no-margin text-extra-small text-uppercase text-center">Graphisme</p></div>
+				      			<div class="hover-title-box padding-55px-1r width-300px">
+				      				<div class="separator width-50px bg-whote md-display-none" style="background-color: #fff;"></div>
+				      				<h3>
+				      					<a href="#article3">
+				      						<span class="text-white font-weight-600 alt-font text-white-hover">Destructuration <br></span>
+				      					</a>
+				      				</h3>
+				      			</div>
+				      		</div>
+				      	</div>
+
+				    </div>
+				     <div class="swiper-slide width-auto swiper-slide-next" style="margin-right:30px;"> 
+				      	<div class="height-100 display-table">
+				      		<div class="display-table-cell vertical-align-middle">
+				      			<div class="display-block position-relative">
+				      				<img src="img/omg.jpg" width="400" height="500" sizes="(max-width : 400px) 100v, 1300px">
+				      				<p class="bottom-text width-100 no-margin text-extra-small text-uppercase text-center">Mate Painting</p></div>
+				      			<div class="hover-title-box padding-55px-1r width-300px">
+				      				<div class="separator width-50px bg-whote md-display-none" style="background-color: #fff;"></div>
+				      				<h3>
+				      					<a href="#article4">
+				      						<span class="text-white font-weight-600 alt-font text-white-hover">Superposition<br></span>
+				      					</a>
+				      				</h3>
+				      			</div>
+				      		</div>
+				      	</div>
+
+				    </div>
+				     <div class="swiper-slide width-auto swiper-slide-next" style="margin-right:30px;"> 
+				      	<div class="height-100 display-table">
+				      		<div class="display-table-cell vertical-align-middle">
+				      			<div class="display-block position-relative">
+				      				<img src="img/wahdyv3.jpg" width="1400" height="1000" sizes="(max-width : 1300px) 100v, 1300px">
+				      				<p class="bottom-text width-100 no-margin text-extra-small text-uppercase text-center">GRAPHISME</p></div>
+				      			<div class="hover-title-box padding-55px-1r width-300px">
+				      				<div class="separator width-50px bg-white md-display-none" style="background-color: #fff;"></div>
+				      				<h3>
+				      					<a href="#article5">
+				      						<span class="text-white font-weight-600 alt-font text-white-hover">Whady</span>
+				      					</a>
+				      				</h3>
+				      			</div>
+				      		</div>
+				      	</div>
+
+				    </div>
+			    </div>
+			    <!-- Add Scrollbar -->
+			   
+			<div class="swiper-pagination"></div>
+  		</div>
+	</div>
+</div>
+
+<div class="article" id="article">
+<div class="fade-in" >
+	
+	<ul id="mygallery">
+		<h6 class="text-white no-margin text-extra-small text-uppercase">PROJET</h6>
+		<h1 class="=alt-font font-weight-600 title1">"Viens Défier le monde !"</h1>
+		<li><a href="img/parcours.png"><img src="img/parcours.png"></a></li>
+		<li><a href="img/i2.png"><img src="img/i2.png"></a></li>
+		<li><a href="img/Avant.png"><img src="img/Avant.png"></a></li>
+	</ul>
+	
+	<p>Campagne de communication autour d'un événement d'une journée.</p>
+
+	<a href="#body"><p style="color: white;">retour</p></a>
+	
+</div>
+</div>
+
+<div class="article2" id="article2">
+
+	<h6 class="fade-in text-medium-gray text-extra-small text-uppercase margin-50px-bottom">PROJET APACHES</h6>
+		<h1 class="fade-in alt-font font-weight-600 title2">Les Indiens d'Amérique en couleurs</h1>
+
+		<hr>
+
+<div class="fade-in image-middle" >
+	<ul id="mygallery">
+		<li><a href="img/img-17.png"><img src="img/img-17.png"></a></li>
+		<li><a href="img/img-3.png"><img src="img/img-3.png"></a></li>
+		<li><a href="img/img-16.png"><img src="img/img-16.png"></a></li>
+	</ul>
+	<figure class="text-extra-small text-medium-gray alt-font ">New York Public Library Archive - Mises en couleur par Juliette UHLEN</figure>
+</div>
+
+<section class="paragraphe">
+	<p>Photographie issues des archives digitales de la librairie de New-York, des images libres de droits et originellement en Noir et Blanc datant du début du XXe siècle (environ 1900-1910).
+	<br><br>
+	Piquée par la curiosité de connaître le rendu des photographies en couleurs, j'ai utilisé la technique de l'autochrome sur Photoshop. <br> Un procédé de restitution photographique des couleurs des frères Auguste et Louis Lumière breveté en 1903.<br>En appliquant successivement des filtres rouge, bleu et vert,on se rapproche de la couleur originale de la photographie.
+	<br>
+	En partant du principe, qu'une photographie en Noir et blanc suffit à observer les lumières (tous ce qui est représentée en blanc) et les ombres ( tous ce qui est représenté par des dégradés allant du gris clair au noir), et que par l'addition de ces éléments, nous pouvons distinguer un objet dans l'espace.
+	<br><br>
+	<p>
+	En ajoutant, les trois couleurs primaires : rouge, bleu et vert, on distingue la couleur car elle se compose de ces trois couleurs, sachant que l'absence de couleur est le blanc, tandis que le noir représente l'absorption de ces 3 couleurs.
+	
+	En additionnant les filtres RVB les uns sur les autres, et en jouant sur les niveaux de chacun, par magie, la photographie se colorise peu à peu, et les élements qui peinaient à être visibles en noir et blanc, se dévoilent en couleurs. </p>
+
+</section>
+<section class="display-table padding-ten-left">
+
+	<div class="display-table-cell"> 
+		<figure class="no-margin width-500px text-extra-small text-medium-gray alt-font" style="padding-bottom: 0.5em;">Edward S. Curtis, “The scout, Apache” (1906) - New York Public Library Archives - Mises en couleur par Juliette UHLEN</figure>
+		<img class="indien" src="img/img-4.png">	
+	</div>
+	
+	
+	<p class="display-table-cell width-550px vertical-align-middle padding-ten-all font-weight-600 quote">« En quelque sorte, on apporte un nouveau regard rafraîchi sur l'Histoire. Ce n'est pas un substitut à l'Histoire. <br>Nous n'étions pas là, on ne peut pas savoir avec précision les couleurs de la photo lorsqu'elle a été prise. Je construis une image qui montre à quoi cela aurait pu peut-être ressembler : c'est un ajout, rien de plus. »</p>
+</section>
+
+	<div class="fade-in image-middle" >
+	<ul id="mygallery">
+		<li><a href="img/img-7.png"><img src="img/img-7.png"></a></li>
+		<li><a href="img/img-6.jpg"><img src="img/img-6.jpg"></a>
+		</li>
+		<li><a href="img/img-2.jpg"><img src="img/img-2.jpg"></a>
+		</li>
+	</ul>
+	<figure class="text-extra-small text-medium-gray alt-font ">New York Public Library Archive - Mises en couleur par Juliette UHLEN. </figure>
+</div>
+	
+
+	<a href="#body"><p style="color: white;">retour</p></a>
+	
+
+</div>
+
+<div class="article3" id="article3">
+<div class="fade-in" >
+	<ul id="mygallery">
+		<h6 class="text-white no-margin text-extra-small text-uppercase writing-mode">projet etude de la forme</h6>
+		<h1 class="=alt-font font-weight-600 title1">Etude de la forme</h1>
+	</ul>
+	
+	<section class="paragraphe3 display-table">
+	<p>La déstructuration de l'image est volontaire. L'objectif de ces réalisations est de comprendre la relation lumière-ombre. En premier lieu, l'idée est de reprendre une image puis de la convertir en noir et blanc afin de conserver les ombres et les points de lumières.</p>
+	<img src="img/img-12.jpg">
+	
+	</section>
+	<section class="paragraphe3 display-table">
+	<img src="img/img-5.png" width="300px">
+	<p>La suite étant d'appliquer une nouvelle texture à la forme obtenue par écrêtage, et de transformer les traits. 
+	Peu à peu, on reconstitue une image.</p>	
+	</section>
+
+	<a href="#body"><p style="color: white;">retour</p></a>
+	
+</div>
+</div>
+
+<div class="article" id="article4">
+<div class="fade-in" >
+	
+	<ul id="mygallery">
+		<h6 class="text-white no-margin text-extra-small text-uppercase">PROJET Mate painting</h6>
+		<h1 class="=alt-font font-weight-600 title1">"Construire une image</h1>
+		<li><a href="img/img-1.png"><img src="img/img-1.png"></a></li>
+		<li><a href="img/img-9.png"><img src="img/img-9.png"></a></li>
+	</ul>
+	
+	<p>Ici, il est question de montrer l'interêt du surréalisme : pouvoir exprimer une émotion par les images, faire ressentir de l'émotion à un une personne.</p>
+
+	<a href="#body"><p style="color: white;">retour</p></a>
+	
+</div>
+</div>
+
+<div class="article" id="article5">
+<div class="fade-in" >
+	
+	<ul id="mygallery">
+		<h6 class="text-white no-margin text-extra-small text-uppercase">PROJET</h6>
+		<h1 class="=alt-font font-weight-600 title1">"Wahdy"</h1>
+		<li><a href="img/wahdyv3.jpg"><img src="img/wahdyv3.jpg"></a></li>
+		<li><a href="img/lupita.jpg"><img src="img/lupita.jpg"></a></li>
+	</ul>
+	
+	<p>Ici, il est question de montrer l'interêt de la création et le pouvoir du dessin : pouvoir exprimer une émotion par les images, faire ressentir de l'émotion à un une personne.</p>
+
+	<a href="#body"><p style="color: white;">retour</p></a>
+	
+</div>
+</div>
+
+  <!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+  <script src="js/jquery.justifiedGallery.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/scrollto.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      slidesPerView: 'auto',
+      spaceBetween: 30,
+      mousewheel: true,
+      clickable: true,
+
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        type: 'progressbar',
+      },
+
+    });
+  </script>
+<script>
+$("#mygallery").justifiedGallery({
+	randomize: true,
+	lastRow: 'justify',
+	rowHeight : 400,
+	margin: 5,
+
+});
+</script>
 
 </body>
-
 </html>
