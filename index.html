@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-	<meta charset="utf-8"/> 
-	<title>Site Web</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"> 
+	<title>Juliette UHLEN | Portfolio 2018</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 	<link rel="stylesheet" type="text/css" href="css/swiper.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/justifiedGallery.css">
-	 <style>
-    html, body {
-      position: relative;
-    }
+
+	<style>
+    html, body {position: relative;}
     body {
       background: #000;
       -webkit-font-smoothing: antialiased;
@@ -41,60 +42,57 @@
       -webkit-align-items: center;
       align-items: center;
     }
-  </style>
+</style>
        
 </head>
-
-
 
 <body id="body">
 
 <header>
-	<nav class="navbar">
-		<div class="row">
-
-		<a href="#"><img class="logoju" src="img/logoju.png"></a>
-			
-			<div class="menu-horizontal font-weight-400">
-				<ul><li>Portfolio</li>
-					<li>Contact</li>
-				</ul>
-			</div>	
-		</div>
-	</nav>
+	<div class="row">
+		<a href="index.html"><img class="logoju" src="img/logoju.png"></a>
+	</div>
+	<label>
+			<input type="checkbox">
+			<span class="menu">
+				<span class="hamburger">
+				</span>
+			</span>
+			<ul>
+				<li><a href="#">Accueil</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+	</label>
 </header>
 
-
-
-<div class="container" id="container">
+<div class="container">
 	<div class="row">
-		<div id="mygallery" class="swiper-container portfolio-slider-1 no-move portfolio-slider-style-3 swiper-container-horizontal swiper-container-android">
-			<div class="swiper-wrapper" style="height: 700px;">
+		<div class="col-md-12 col-sm-12 col-xs-12">
+		<div class="swiper-container swiper-container-horizontal swiper-container-android" id="mygallery">
 
+			<div class="swiper-wrapper">
 
-				<div class="swiper-slide width-550px swiper-slide-active" style="margin-right:30px;"> 
-				      	<div class="position-relative width-90 height-100 display-table padding-ten-all">
-				      		<div class="display-table-cell vertical-align-middle">
-				      		
-				      		
-				      		</div>
+				<div class="swiper-slide width-550px swiper-slide-active xs-height-auto" style="margin-right:30px;"> 
+				      	<div class="position-relative width-90 height-100 display-table padding-ten-all xs-width-100 xs-padding-fifteen-all">
+				      		<div class="display-table-cell vertical-align-middle"></div>
 				      	</div>
 
 				    </div>
 
-				    <div class="swiper-slide width-auto swiper-slide-next" style="margin-right:30px;"> 
+				    <div class="swiper-slide xs-height-auto width-auto swiper-slide-next" style="margin-right:30px;"> 
 				      	<div class="height-100 display-table">
 				      		<div class="display-table-cell vertical-align-middle">
 				      			<div class="display-block position-relative">
-				      				<img src="img/p1bis.jpg" width="1400" height="1000" sizes="(max-width : 1400px) 100v, 1300px">
+				      				<a href="#article"><img src="img/p1bis.jpg"></a>
 				      				<p class="bottom-text width-100 no-margin text-extra-small text-uppercase text-center">Graphisme & communication</p>
 				      			</div>
-				      			<div class="hover-title-box padding-55px-1r width-300px">
-				      				<div class="separator width-50px bg-whote md-display-none" style="background-color: #fff;"></div>
+				      			<div class="hover-title-box width-300px sm-width-100 sm-padding-20px-1r">
+				      				<div class="separator width-50px xs-margin-lr-auto bg-whote md-display-none" style="background-color: #fff;"></div>
 				      				<h3>
 				      					<a href="#article">
 				      						<span class="text-white font-weight-600 alt-font text-white-hover">Viens défier
-				      							<br>le monde</span>
+				      						le monde</span>
 				      					</a>
 				      				</h3>
 				      			</div>
@@ -102,19 +100,19 @@
 				      	</div>
 
 				    </div>
-				    <div class="swiper-slide width-auto swiper-slide-next" style="margin-right:30px;"> 
+				    <div class="swiper-slide xs-height-auto width-auto swiper-slide-next" style="margin-right:30px;"> 
 				      	<div class="height-100 display-table">
 				      		<div class="display-table-cell vertical-align-middle">
 				      			<div class="display-block position-relative">
-				      				<img src="img/p13.jpg" width="1400" height="1000" sizes="(max-width : 1300px) 100v, 1300px">
+				      				<a href="#article2"><img src="img/p13.jpg"></a>
 				      				<p class="bottom-text width-100 no-margin text-extra-small text-uppercase text-center">Histoire & Colorimétrie</p></div>
-				      			<div class="hover-title-box padding-55px-1r width-300px">
-				      				<div class="separator width-50px bg-whote md-display-none" style="background-color: #fff;"></div>
+				      			<div class="hover-title-box padding-55px-1r width-300px sm-width-100 sm-padding-20px-1r ">
+				      				<div class="separator width-50px xs-margin-lr-auto bg-whote md-display-none" style="background-color: #fff;"></div>
 				      				<h3>
 				      					<a href="#article2">
-				      						<span class="text-white  font-weight-600 alt-font text-white-hover"> Apaches<br>
-				      						Photos <br>
-				      						en couleurs</span>
+				      						<span class="text-white  font-weight-600 alt-font text-white-hover"> Apaches 
+				      						Photos
+				      						</span>
 				      					</a>
 				      				</h3>
 				      			</div>
@@ -122,14 +120,14 @@
 				      	</div>
 
 				    </div>
-				     <div class="swiper-slide width-auto swiper-slide-next" style="margin-right:30px;"> 
+				     <div class="swiper-slide width-auto swiper-slide-next xs-height-auto" style="margin-right:30px;"> 
 				      	<div class="height-100 display-table">
 				      		<div class="display-table-cell vertical-align-middle">
 				      			<div class="display-block position-relative">
-				      				<img src="img/p1.jpg" width="1400" height="1000" sizes="(max-width : 1300px) 100v, 1300px">
+				      				<a href="#article3"><img src="img/p1.jpg"></a>
 				      				<p class="bottom-text width-100 no-margin text-extra-small text-uppercase text-center">Graphisme</p></div>
 				      			<div class="hover-title-box padding-55px-1r width-300px">
-				      				<div class="separator width-50px bg-whote md-display-none" style="background-color: #fff;"></div>
+				      				<div class="separator width-50px xs-margin-lr-auto bg-whote md-display-none" style="background-color: #fff;"></div>
 				      				<h3>
 				      					<a href="#article3">
 				      						<span class="text-white font-weight-600 alt-font text-white-hover">Destructuration <br></span>
@@ -140,14 +138,14 @@
 				      	</div>
 
 				    </div>
-				     <div class="swiper-slide width-auto swiper-slide-next" style="margin-right:30px;"> 
+				     <div class="swiper-slide width-auto swiper-slide-next xs-height-auto" style="margin-right:30px;"> 
 				      	<div class="height-100 display-table">
 				      		<div class="display-table-cell vertical-align-middle">
 				      			<div class="display-block position-relative">
-				      				<img src="img/omg.jpg" width="400" height="500" sizes="(max-width : 400px) 100v, 1300px">
+				      				<a href="#article4"><img src="img/omg.jpg"></a>
 				      				<p class="bottom-text width-100 no-margin text-extra-small text-uppercase text-center">Mate Painting</p></div>
 				      			<div class="hover-title-box padding-55px-1r width-300px">
-				      				<div class="separator width-50px bg-whote md-display-none" style="background-color: #fff;"></div>
+				      				<div class="separator width-50px xs-margin-lr-auto bg-whote md-display-none" style="background-color: #fff;"></div>
 				      				<h3>
 				      					<a href="#article4">
 				      						<span class="text-white font-weight-600 alt-font text-white-hover">Superposition<br></span>
@@ -158,14 +156,14 @@
 				      	</div>
 
 				    </div>
-				     <div class="swiper-slide width-auto swiper-slide-next" style="margin-right:30px;"> 
+				     <div class="swiper-slide width-auto swiper-slide-next xs-height-auto" style="margin-right:30px;"> 
 				      	<div class="height-100 display-table">
 				      		<div class="display-table-cell vertical-align-middle">
 				      			<div class="display-block position-relative">
-				      				<img src="img/wahdyv3.jpg" width="1400" height="1000" sizes="(max-width : 1300px) 100v, 1300px">
+				      				<a href="#article5"><img src="img/wahdyv3.jpg"></a>
 				      				<p class="bottom-text width-100 no-margin text-extra-small text-uppercase text-center">GRAPHISME</p></div>
 				      			<div class="hover-title-box padding-55px-1r width-300px">
-				      				<div class="separator width-50px bg-white md-display-none" style="background-color: #fff;"></div>
+				      				<div class="separator width-50px xs-margin-lr-auto bg-white md-display-none" style="background-color: #fff;"></div>
 				      				<h3>
 				      					<a href="#article5">
 				      						<span class="text-white font-weight-600 alt-font text-white-hover">Whady</span>
@@ -180,15 +178,17 @@
 			    <!-- Add Scrollbar -->
 			   
 			<div class="swiper-pagination"></div>
+			
+  		</div>
   		</div>
 	</div>
-</div>
 
-<div class="article" id="article">
+
+<div class="article article1" id="article">
 <div class="fade-in" >
 	
 	<ul id="mygallery">
-		<h6 class="text-white no-margin text-extra-small text-uppercase">PROJET</h6>
+		<h6 class="text-white no-margin text-extra-small text-uppercase writing-mode">PROJET COMMUNICATION EXTERNE D'UN PROJET</h6>
 		<h1 class="=alt-font font-weight-600 title1">"Viens Défier le monde !"</h1>
 		<li><a href="img/parcours.png"><img src="img/parcours.png"></a></li>
 		<li><a href="img/i2.png"><img src="img/i2.png"></a></li>
@@ -197,18 +197,15 @@
 	
 	<p>Campagne de communication autour d'un événement d'une journée.</p>
 
-	<a href="#body"><p style="color: white;">retour</p></a>
+	<a href="#retour"><p style="color: white;">retour</p></a>
 	
 </div>
 </div>
 
 <div class="article2" id="article2">
 
-	<h6 class="fade-in text-medium-gray text-extra-small text-uppercase margin-50px-bottom">PROJET APACHES</h6>
+	<h6 class="fade-in text-medium-gray text-extra-small text-uppercase margin-50px-bottom writing-mode">PROJET APACHES</h6>
 		<h1 class="fade-in alt-font font-weight-600 title2">Les Indiens d'Amérique en couleurs</h1>
-
-		<hr>
-
 <div class="fade-in image-middle" >
 	<ul id="mygallery">
 		<li><a href="img/img-17.png"><img src="img/img-17.png"></a></li>
@@ -254,7 +251,7 @@
 </div>
 	
 
-	<a href="#body"><p style="color: white;">retour</p></a>
+	<a href="#retour"><p style="color: white;">retour</p></a>
 	
 
 </div>
@@ -277,16 +274,16 @@
 	Peu à peu, on reconstitue une image.</p>	
 	</section>
 
-	<a href="#body"><p style="color: white;">retour</p></a>
+	<a href="#retour"><p style="color: white;">retour</p></a>
 	
 </div>
 </div>
 
-<div class="article" id="article4">
+<div class="article article4" id="article4">
 <div class="fade-in" >
 	
 	<ul id="mygallery">
-		<h6 class="text-white no-margin text-extra-small text-uppercase">PROJET Mate painting</h6>
+		<h6 class="text-white no-margin text-extra-small text-uppercase writing-mode">PROJET Mate painting</h6>
 		<h1 class="=alt-font font-weight-600 title1">"Construire une image</h1>
 		<li><a href="img/img-1.png"><img src="img/img-1.png"></a></li>
 		<li><a href="img/img-9.png"><img src="img/img-9.png"></a></li>
@@ -294,12 +291,11 @@
 	
 	<p>Ici, il est question de montrer l'interêt du surréalisme : pouvoir exprimer une émotion par les images, faire ressentir de l'émotion à un une personne.</p>
 
-	<a href="#body"><p style="color: white;">retour</p></a>
-	
-</div>
+	<a href="#retour"><p style="color: white;">retour</p></a>
+	</div>
 </div>
 
-<div class="article" id="article5">
+<div class="article5 article" id="article5">
 <div class="fade-in" >
 	
 	<ul id="mygallery">
@@ -311,47 +307,20 @@
 	
 	<p>Ici, il est question de montrer l'interêt de la création et le pouvoir du dessin : pouvoir exprimer une émotion par les images, faire ressentir de l'émotion à un une personne.</p>
 
-	<a href="#body"><p style="color: white;">retour</p></a>
+	<a href="#retour"><p style="color: white;">retour</p></a>
 	
 </div>
 </div>
 
-  <!-- Swiper JS -->
+</div>
+
+ <!-- Swiper JS -->
+ 
   <script src="js/swiper.min.js"></script>
-  <script src="js/jquery.justifiedGallery.js"></script>
+  <script src="js/justifiedGallery.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/scrollto.js"></script>
 
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      slidesPerView: 'auto',
-      spaceBetween: 30,
-      mousewheel: true,
-      clickable: true,
-
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-        type: 'progressbar',
-      },
-
-    });
-  </script>
-<script>
-$("#mygallery").justifiedGallery({
-	randomize: true,
-	lastRow: 'justify',
-	rowHeight : 400,
-	margin: 5,
-
-});
-</script>
 
 </body>
 </html>
