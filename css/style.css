@@ -6,14 +6,20 @@
  */
 
 
+ /********************preloader****************/
+
+
 /*********************header*******************/
 
 .logoju {
 	max-height: 100px;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+}
 
+header .row{
+	padding-left: 45%;
+	padding-right: 48%;
+	margin-bottom: 50px;
 }
 
 
@@ -126,7 +132,6 @@ label a{
 
 .vertical-align-middle {vertical-align: middle;}
 .display-none{display: none!important;}
-.display-table-cell {display: table-cell !important;}
 .display-block{display: block!important;}
 .display-table{display: table!important;}
 .position-relative{position: relative!important;}
@@ -294,15 +299,7 @@ section > div *:hover {
 
 .iam2{margin-top: 0px;}
 
-
-
-/************************article*****************/
-
-
-.article{display: none;}
-.article:target {position: relative;display: block;}
-#article {display: none;position: absolute;}
-#article:target {display: block;}
+/**********************animation article*********/
 
 .fade-in {
 	opacity: 1;
@@ -321,29 +318,35 @@ section > div *:hover {
 	}
 }
 
+
+/************************article*****************/
+
 .article ul li {
 	display: inline-block;
 	padding: 0;
 	margin: 0;
 }
+.article ul{padding-right: 1em;
+	padding-left: 1em;}
 
 .article {
-	width: 100%;
-	height: 100%;
-	left: 10%;
+	width: 100vw;
+	min-height: 100vh;
+	left: 25%;
+	right: 25%;
 	}
 
 .article p{text-align: justify;}
 
-.article ul li img {
-	max-height: 400px;
-	max-width: 500px;
-}
+
 
 .title1{
-	padding-left: 25%;
-	font-size: 35px;
+	margin-top: 1em;
+	padding-left: -5%;
 	color: #eee;
+	line-height: normal;
+	text-decoration: underline;
+	font-family: Montserrat;
 
 }
 .title2{padding-left: 35%;font-size: 35px;
@@ -385,13 +388,6 @@ section > div *:hover {
 }
 
 
-.article2{display: block;}
-.article2:target {display: block; position: relative;}
-
-#article2{display: none;
-position: absolute;}
-#article2:target {display: block;}
-
 .quote{
 	font-size: 18px;
 	line-height: 25px;
@@ -401,14 +397,6 @@ position: absolute;}
 	margin: 0;
 	padding: 0;
 }
-
-.article3{display: block;}
-.article3:target {display: block; position: relative;}
-
-#article3{display: none;
-position: absolute;}
-#article3:target {display: block;}
-
 
 .paragraphe3{
 	padding-left: 10%;
@@ -468,7 +456,10 @@ body {
     display: block !important;
     height: 100% !important;
 }
-}
+.indien2{display: block;}
+.quote{text-align: center; display: block;width: 100vw;font-family: Montserrat, sans-sérif;}
+.image-middle{padding-left: 0;width: 100vw;}
+
 
 @media (max-width: 767px){
 	.swiper-pagination{
@@ -486,7 +477,10 @@ body {
 @media (max-width: 767px){
 .xs-height-auto {
     height: auto !important;
-}}
+
+}
+.paragraphe{padding-left: 0;}
+}
 
 @media (max-width: 767px){
 .swiper-slide a img {
@@ -494,7 +488,52 @@ body {
     width: 100%;
     max-height: 100%;
     vertical-align: top;
-}}
+}
+#article:target{
+	display: block;
+	z-index: 19;
+	background-color: #000;
+}
+.article{
+	padding-right: 0;
+	left: 0;
+	right: 0;
+
+}
+.article p{
+	padding: 5%;
+	margin: 0;
+	display: block;
+	width: 100%;
+
+}
+
+.i2{margin: 0;padding:0;}
+.articlee{
+	position: relative;
+	margin:0;
+
+}
+.writing-mode{
+	position: absolute;
+	top: 200px;
+	left:-21%;
+}
+.title1{
+	font-size: 150%;
+	line-height: normal;
+	padding-left: 1em;
+}
+.button-back{
+	float: right;
+	color: white;
+	padding-right: 20%;
+	margin-bottom: 1em;
+}
+.gallery-l-screen{display: none;}
+}
+
+}
 
 
 
@@ -502,6 +541,8 @@ body {
 .xs-width-100 {
     width: 100%;
 }
+.display-table-cell{display: block;}
+
 }
 
 @media (max-width: 767px){
@@ -509,7 +550,12 @@ body {
     padding: 15%;
 }
 }
+@media (max-width: 767px){
+	header>.row{
+		padding: 3% 0 0 5%;
 
+	}
+}
 @media (max-width: 767px){
 .bottom-text {
     bottom: 25px;
@@ -534,7 +580,9 @@ body {
     left: 50%;
     right: 0;
     display: block;
-}}
+}
+
+}
 
 @media (max-width: 991px){
 .sm-width-100 {
@@ -586,6 +634,9 @@ body {
     max-height: 430px;
     width: auto;
 }
+.screen-l{
+	display: none;
+}
 }
 
 @media (min-width: 768px) {
@@ -626,14 +677,22 @@ body {
 }
 
 @media (min-width: 768px){
-	.article1{top:900px;margin-top: 50px;}
-	.article2{top: 900px;}
-	.article3{top: 800px;}
-	.writing-mode{top:100px;}
-	.article h6{position: absolute;left:-10%;}
+	.article1{top: 100vh;margin-top: 50px;}
+	.article2{top: 100vh;}
+	.article3{top: 100vh;}
+	.writing-mode{left:-24.5px;}
+	.article h6{position: absolute;left:-22.5%;padding-right: 102px}
 	.article2 h6{position: absolute;}
 	.article3 h6{position: absolute;}
 	.menu-horizontal a:hover {text-decoration:line-through;}
-
+	.title1{font-size: 35px;}
+	
+	.article p{display: table-cell; width: 25%;}
+	.indien2{display: table,!important;padding-left: 15%;}
+	.display-table-cell{display: table-cell,!important;}
+	.article ul li img {
+	max-height: 400px;
+	max-width: 300px;
+}
 }
 
