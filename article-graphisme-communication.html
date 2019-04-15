@@ -17,6 +17,7 @@
       padding: 0;
     }
 	</style>
+
 </head>
 <body id="upto">
 	<header>
@@ -40,44 +41,56 @@
 
 <div class="article article1" id="article">
 <div class="fade-in" >
-	<h6 class="text-white no-margin text-extra-small text-uppercase writing-mode">COMMUNICATION EXTERNE D'UN PROJET</h6>
-	<img src="img/a1.jpg" style="width: 100%;">
+	<h6 class="fade-in text-white no-margin text-extra-small text-uppercase writing-mode">COMMUNICATION EXTERNE D'UN PROJET</h6>
+	<img src="img/a1.jpg" class="cover" style="width: 100%;padding-left: 15%;">
 	<h1 class="=alt-font font-weight-600 title1">Viens Défier le monde !</h1>
-
-
-	<ul id="mygallery" class="gallery-l-screen">
-		
-		<li><a href="img/parcours.png"><img src="img/parcours.png"></a></li>
-		<li><a href="img/i2.png"><img src="img/i2.png" height="273" width="200"></a></li>
-		<li><a href="img/Avant.png"><img src="img/Avant.png" height="273"></a></li>
-	</ul>
 	
-	<p>Viens défier le monde! est un festival écologique d'un jour, visant à sensibiliser les grenoblois sur les modes de consommations alternatifs et écologiques. 
+	<p class="text-p">Viens défier le monde! est un festival écologique d'un jour, visant à sensibiliser les grenoblois sur les modes de consommations alternatifs et écologiques. 
 		<br>
 	L'idée est de plonger les festivaliers, le temps d'une journée, dans un scénario des plus original : la possibilité de voyager sur une exoplanète habitable : la planète Kapteyn-B. 
 		<br>
 	</p>
+
+	<div class="grid gallery-l-screen">
+		<div class="grid-item"><img src="img/parcours.png"></div>
+		<div class="grid-item grid-item--width2"><img src="img/i2.png"></div>
+		<div class="grid-item"><img src="img/Avant.png"></div>
+	</div>
+
 	<img src="img/i2.png" class="i2">
-
-	<p>
-	Durant cette journée, ils découvrent le quotidien des Kapteyniens et leur façon de consommer intelligemment à travers divers ateliers. 
-	Au programme : atelier recyclage du plastique en décoration originale, café des Kapteyniens, spectacles, escape game.
-		<br>
-	</p>
-
-
-	<p>L'organisatrice de l'événement m'a proposé de créer les visuels de cette journée. Par visuels, j'entends dire plusieurs affiches pour promouvoir l'événement, un flyer, ainsi qu'un carnet de jeu pour le Jour J. Elle souhaitait cibler les personnes sensibles à l'environnement, et désireuse d'apprendre de nouvelles choses. 
-	</p>
+	<div class="text-p">
+		<p>
+		Durant cette journée, ils découvrent le quotidien des Kapteyniens et leur façon de consommer intelligemment à travers divers ateliers. 
+		Au programme : atelier recyclage du plastique en décoration originale, café des Kapteyniens, spectacles, escape game.
+		</p>
+		<p>
+		Pour annoncer l'événement, il m'a été demandé de réaliser une affiche A3 imprimable, un carnet de jeu et un flyer A6 imprimable.
+		L'événement souhaitait cibler les personnes sensibles à l'environnement, et désireuse d'apprendre de nouvelles choses. 
+		</p>
+	</div>
 	<div class="screen-l">
 	<img src="img/Avant.png">
 	<img src="img/parcours.png">
 	</div>
-	<p>
-	J'ai choisi de prouvoir l'événement avec cette affiche. J'ai choisi un style romantique volontairement, car le courant artistique s'y prêtait bien : la place de l'homme dans le monde. 
-	</p>
+	
 
-	<a href="#upto" class="button-back">retour</a>	
+	<a href="#upto" class="button-back"><center>retour</center></a>	
 </div>
 </div>
+
+<footer>
+	<center>Juliette UHLEN | Portfolio 2019  © Thème crée par Juliette UHLEN</center>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script>
+	$('.grid').masonry({
+  itemSelector: '.grid-item',
+  columnWidth: 15,
+});
+</script>
+
+
 </body>
 </html>

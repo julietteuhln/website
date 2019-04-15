@@ -39,42 +39,46 @@
 
 <div class="article fade-in article1" id="article">
 
-	<h6 class="fade-in text-medium-gray text-extra-small text-uppercase margin-50px-bottom writing-mode">PROJET APACHES</h6>
-		<h1 class="fade-in alt-font font-weight-600 title1">Les Indiens d'Amérique en couleurs</h1>
-<div class="fade-in image-middle gallery-l-screen" >
-	<ul id="mygallery" >
-		<li><a href="img/img-17.png"><img src="img/img-17.png"></a></li>
-		<li><a href="img/img-3.png"><img src="img/img-3.png"></a></li>
-		<li><a href="img/img-16.png"><img src="img/img-16.png"></a></li>
-	</ul>
-	<figure class="text-extra-small text-medium-gray alt-font ">New York Public Library Archive - Mises en couleur par Juliette UHLEN</figure>
-</div>
+	<h6 class="projet2 fade-in text-white no-margin text-extra-small text-uppercase writing-mode">PROJET APACHES</h6>
+	<img src="img/jio.png" class="cover gallery-l-screen" style="width: 100%;padding-left: 15%;">
+	<h1 class="fade-in alt-font font-weight-600 title1">Les Indiens d'Amérique en couleurs</h1>	
  <img src="img/img-3.png" class="screen-l">
+
+
 <section class="paragraphe">
 	<p>Photographies issues des archives digitales de la librairie de New-York, des images libres de droits et originellement en Noir et Blanc datant du début du XXe siècle (environ 1900-1910).
-	<br><br>
+	<br>
 	Piquée par la curiosité de connaître le rendu des photographies en couleurs, j'ai utilisé la technique de l'autochrome sur Photoshop.
 	<br> 
-	Un procédé de restitution photographique des couleurs des frères Auguste et Louis Lumière breveté en 1903.
-	<br>
-	En appliquant successivement des filtres rouge, bleu et vert,on se rapproche de la couleur originale de la photographie.
-
-	<p>
-	En additionnant les filtres RVB les uns sur les autres, et en jouant sur les niveaux de chacun, par magie, la photographie se colorise peu à peu, et les élements qui peinaient à être visibles en noir et blanc, se dévoilent en couleurs. </p>
-
+	Un procédé de restitution photographique des couleurs des frères Auguste et Louis Lumière breveté en 1903.</p>
 </section>
+
+<div class="grid gallery-l-screen">
+		<div class="grid-item"><img src="img/img-17.png"></div>
+		<div class="grid-item grid-item--width2"><img src="img/img-3.png"></div>
+		<div class="grid-item"><img src="img/img-16.png"></div>
+		<div class="grid-item grid-item--width2"><img src="img/img-7.png"></div>
+		<div class="grid-item"><img src="img/img-6.jpg"></div>
+		<div class="grid-item" style="padding-left: 10px;"><img src="img/img-2.jpg"></div>
+		<div class="grid-item">
+			<q class="width-550px vertical-align-middle padding-ten-all font-weight-600 quote">En quelque sorte, on apporte un nouveau regard rafraîchi sur l'Histoire. Ce n'est pas un substitut à l'Histoire. <br>Nous n'étions pas là, on ne peut pas savoir avec précision les couleurs de la photo lorsqu'elle a été prise. Je construis une image qui montre à quoi cela aurait pu peut-être ressembler : c'est un ajout, rien de plus.</q>
+		</div>
+	</div>
+
+
+
 <section class="indien2">
 
-	<div class="display-table-cell"> 
+	<div class="screen-l"> 
 		<figure class="no-margin width-500px text-extra-small text-medium-gray alt-font" style="padding-bottom: 0.5em;">Edward S. Curtis, “The scout, Apache” (1906) - New York Public Library Archives - Mises en couleur par Juliette UHLEN</figure>
 		<img class="indien" src="img/img-4.png">	
 	</div>
 	
 	
-	<q class="display-table-cell width-550px vertical-align-middle padding-ten-all font-weight-600 quote">En quelque sorte, on apporte un nouveau regard rafraîchi sur l'Histoire. Ce n'est pas un substitut à l'Histoire. <br>Nous n'étions pas là, on ne peut pas savoir avec précision les couleurs de la photo lorsqu'elle a été prise. Je construis une image qui montre à quoi cela aurait pu peut-être ressembler : c'est un ajout, rien de plus.</q>
+	<q class="width-550px screen-l vertical-align-middle padding-ten-all font-weight-600 quote">En quelque sorte, on apporte un nouveau regard rafraîchi sur l'Histoire. Ce n'est pas un substitut à l'Histoire. <br>Nous n'étions pas là, on ne peut pas savoir avec précision les couleurs de la photo lorsqu'elle a été prise. Je construis une image qui montre à quoi cela aurait pu peut-être ressembler : c'est un ajout, rien de plus.</q>
 </section>
 
-	<div class="fade-in image-middle" >
+<div class="fade-in image-middle screen-l" >
 	<ul id="mygallery">
 		<li><a href="img/img-7.png"><img src="img/img-7.png"></a></li>
 		<li><a href="img/img-6.jpg"><img src="img/img-6.jpg"></a>
@@ -82,14 +86,28 @@
 		<li><a href="img/img-2.jpg"><img src="img/img-2.jpg"></a>
 		</li>
 	</ul>
-	<figure class="text-extra-small text-medium-gray alt-font ">New York Public Library Archive - Mises en couleur par Juliette UHLEN. </figure>
+	<figure class="text-extra-small text-medium-gray alt-font screen-l">New York Public Library Archive - Mises en couleur par Juliette UHLEN. </figure>
 </div>
 	
 
-	<a href="#upto"><p style="color: white;">retour</p></a>
+	<a href="#upto"><center style="color: white;">retour</center></a>
 	
 
 </div>
+
+<footer>
+	<center>Juliette UHLEN | Portfolio 2019  © Thème crée par Juliette UHLEN</center>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script>
+	$('.grid').masonry({
+  itemSelector: '.grid-item',
+  columnWidth: 15,
+});
+</script>
 
 
 

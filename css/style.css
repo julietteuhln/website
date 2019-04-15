@@ -9,6 +9,7 @@
  /********************preloader****************/
 
 
+
 /*********************header*******************/
 
 .logoju {
@@ -135,6 +136,7 @@ label a{
 .display-block{display: block!important;}
 .display-table{display: table!important;}
 .position-relative{position: relative!important;}
+
 
 .swiper-slide{
 	height: 100%;
@@ -326,8 +328,8 @@ section > div *:hover {
 	padding: 0;
 	margin: 0;
 }
-.article ul{padding-right: 1em;
-	padding-left: 1em;}
+.article ul{padding-right: 10%;
+	padding-left: 15%;}
 
 .article {
 	width: 100vw;
@@ -354,15 +356,9 @@ section > div *:hover {
 .title3{padding-left: 35%;font-size: 35px;
 		color: #eee;}
 
-.paragraphe {display: table; padding-left: 15%;}
-.paragraphe p{
-	display: table-cell; 
-	padding: 1em;
-	font-size: 16px;
-	width: 600px;
+.paragraphe {text-align: justify;}
+
 }
-.paragraphe p:first-child {text-align: justify;}
-.paragraphe p:last-child {text-align: justify;}
 
 .image-middle{padding-left: 22%;} 
 
@@ -516,7 +512,7 @@ body {
 }
 .writing-mode{
 	position: absolute;
-	top: 200px;
+	top: 22em;
 	left:-21%;
 }
 .title1{
@@ -681,18 +677,34 @@ body {
 	.article2{top: 100vh;}
 	.article3{top: 100vh;}
 	.writing-mode{left:-24.5px;}
-	.article h6{position: absolute;left:-22.5%;padding-right: 102px}
+	.article h6{position: absolute; top:21em;}
 	.article2 h6{position: absolute;}
 	.article3 h6{position: absolute;}
 	.menu-horizontal a:hover {text-decoration:line-through;}
 	.title1{font-size: 35px;}
-	
+	.article h1{padding-left: 15%;}
+	.cover{padding-right: 15%;}
 	.article p{display: table-cell; width: 25%;}
+	.article p:first-child{padding-right: 2em;}
 	.indien2{display: table,!important;padding-left: 15%;}
 	.display-table-cell{display: table-cell,!important;}
 	.article ul li img {
 	max-height: 400px;
-	max-width: 300px;
+	max-width: 256px;
 }
+	.paragraphe{padding: 0 15%;}
+	.text-p{padding: 0 15%; margin: 2em 0; }
+	.i2{display: none;}
+	
 }
 
+/***************************masonrygrid**********/
+
+.grid-item {width: 30%; margin-bottom: 10px;}
+.grid-item--width2 {width: 40%; padding-left: 10px;}
+.grid{max-width: 1200px;
+padding-left: 15%;
+margin-top: 3em;
+}
+
+center{ font-family: Montserrat, sans-sérif; }
