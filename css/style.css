@@ -684,8 +684,6 @@ body {
 	.title1{font-size: 35px;}
 	.article h1{padding-left: 15%;}
 	.cover{padding-right: 15%;}
-	.article p{display: table-cell; width: 25%;}
-	.article p:first-child{padding-right: 2em;}
 	.indien2{display: table,!important;padding-left: 15%;}
 	.display-table-cell{display: table-cell,!important;}
 	.article ul li img {

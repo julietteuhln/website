@@ -54,11 +54,21 @@
 	<div class="grid gallery-l-screen">
 		<div class="grid-item"><img src="img/parcours.png"></div>
 		<div class="grid-item grid-item--width2"><img src="img/i2.png"></div>
+		<div class="grid-item"><p>
+		Durant cette journée, ils découvrent le quotidien des Kapteyniens et leur façon de consommer intelligemment à travers divers ateliers. 
+		Au programme : atelier recyclage du plastique en décoration originale, café des Kapteyniens, spectacles, escape game.
+		</p>
+		<p>	</div>
 		<div class="grid-item"><img src="img/Avant.jpg"></div>
+		<div class="grid-item grid-item--width2">
+			<p>Pour annoncer l'événement, il m'a été demandé de réaliser une affiche A3 imprimable, un carnet de jeu et un flyer A6 imprimable.
+		L'événement souhaitait cibler les personnes sensibles à l'environnement, et désireuse d'apprendre de nouvelles choses. </p>
+			
+		</div>
 	</div>
 
 	<img src="img/i2.png" class="i2">
-	<div class="text-p">
+	<div class="text-p screen-l">
 		<p>
 		Durant cette journée, ils découvrent le quotidien des Kapteyniens et leur façon de consommer intelligemment à travers divers ateliers. 
 		Au programme : atelier recyclage du plastique en décoration originale, café des Kapteyniens, spectacles, escape game.
@@ -85,10 +95,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/masonry.pkgd.min.js"></script>
 <script>
-	$('.grid').masonry({
+	window.onload=function(){
+
+  $('.grid').masonry({
   itemSelector: '.grid-item',
   columnWidth: 15,
 });
+}
 </script>
 
 
