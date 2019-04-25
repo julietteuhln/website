@@ -18,7 +18,7 @@
     }
 	</style>
 </head>
-<body>
+<body id="upto">
 	<header>
 	<div class="row">
 		<a href="index.html"><img class="logoju" src="img/logoju.png"></a>
@@ -31,7 +31,7 @@
 			</span>
 			<ul>
 				<li><a href="#">Accueil</a></li>
-				<li><a href="#">Portfolio</a></li>
+				<li><a href="index.html">Portfolio</a></li>
 				<li><a href="#">Contact</a></li>
 			</ul>
 	</label>
@@ -41,26 +41,32 @@
 <div class="article3" id="article3">
 <div class="fade-in" >
 	<ul id="mygallery">
-		<h6 class="text-white no-margin text-extra-small text-uppercase writing-mode">projet etude de la forme</h6>
-		<h1 class="=alt-font font-weight-600 title1">Etude de la forme</h1>
+		<h6 class="text-white no-margin text-extra-small text-uppercase writing-mode"style="padding-left: 2em;" >projet etude de la forme</h6>
+		<h1 class="=alt-font font-weight-600 title1" style="padding-left: 3em;">Etude de la forme</h1>
 	</ul>
 	
-	<section class="paragraphe3 display-table">
-	<p>La déstructuration de l'image est volontaire. L'objectif de ces réalisations est de comprendre la relation lumière-ombre. En premier lieu, l'idée est de reprendre une image puis de la convertir en noir et blanc afin de conserver les ombres et les points de lumières.</p>
-	<img src="img/img-12.jpg">
-	
-	</section>
-	<section class="paragraphe3 display-table">
-	<img src="img/img-5.png" width="300px">
-	<p>La suite étant d'appliquer une nouvelle texture à la forme obtenue par écrêtage, et de transformer les traits. 
-	Peu à peu, on reconstitue une image.</p>	
-	</section>
+<div class="grid">
+		<div class="grid-item"><p>La déstructuration de l'image est volontaire. L'objectif de ces réalisations est de comprendre la relation lumière-ombre. En premier lieu, l'idée est de reprendre une image puis de la convertir en noir et blanc afin de conserver les ombres et les points de lumières.</p></div>
+		<div class="grid-item grid-item--width2"><img src="img/img-12.jpg"></div>
+		<div class="grid-item"><img src="img/img-5.png" width="300px">
+			</div>
+		<div class="grid-item"><p>La suite étant d'appliquer une nouvelle texture à la forme obtenue par écrêtage, et de transformer les traits. 
+	Peu à peu, on reconstitue une image.</p></div>
+	</div>
 
-	<a href="#retour"><p style="color: white;">retour</p></a>
+	<a href="#upto" class="button-back"><center style="color: white;">retour</center></a>
 	
 </div>
 </div>
 
+
+<footer>
+	<center>Juliette UHLEN | Portfolio 2019  © Thème crée par Juliette UHLEN</center>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
 <script>
 	window.onload=function(){
 
