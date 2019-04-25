@@ -421,7 +421,7 @@ section > div *:hover {
 .swiper-container .swiper-wrapper .swiper-slide {
     float: left;
     width: 100%;
-    padding:0;
+    padding: 0;
 }
 }
 
@@ -435,7 +435,6 @@ body {
 @media (max-width: 767px){
 	.swiper-container{
 		height: 100%;
-		padding-top: 80px;
 	}
 }
 
