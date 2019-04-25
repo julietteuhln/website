@@ -103,10 +103,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/masonry.pkgd.min.js"></script>
 <script>
-	$('.grid').masonry({
+	window.onload=function(){
+
+  $('.grid').masonry({
   itemSelector: '.grid-item',
   columnWidth: 15,
 });
+}
 </script>
 
 
